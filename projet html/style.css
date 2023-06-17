@@ -1,0 +1,126 @@
+body{
+	/*background: white;*/
+	text-align: center;
+	
+
+	background: no-repeat;
+	background-image: url("react.png");
+
+	
+}
+form{
+	background: black;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: %;
+	 color: white;
+	/*border: 10px solid blue;*/
+	border-radius: 10%;
+	border:none;
+	font-family: sans-serif;
+	width: %;
+}
+
+h1{
+	background: #bca;
+	/*font-size: 32px;*/
+	margin-right: 20%;
+	margin-left: 20%;
+	border-bottom: 5px solid red;
+}
+input[type="text"]{
+	/*border:none;*/
+/*border-radius:1px-9px;*/
+border-bottom:3px solid blue;
+outline: none;
+
+}
+select{
+	border-bottom: 3px solid red;
+
+}
+input[type="nember"]{
+	border-bottom:3px solid blue;
+outline: none;
+
+}
+#container{
+	border-bottom:3px solid blue;
+	width:20vw;
+	font-family: sans-serif;
+	background: #9aa;
+	height:100px;
+}
+nav{
+	margin-left: 50%;
+
+}
+
+header {
+	font-size:20px;
+	
+}
+a{
+	width:20px;
+}
+h1 :hover{
+background: red;
+}
+
+
+
+
+/*
+[
+border:name;
+outline:none;
+border-radius1px-9px
+border-bottom:7px solid blue;
+padding-left:10px;
+[
+input[type="text"]{}
+]
+
+
+]	
+
+
+
+{
+	font-size:22px;
+	color: white;
+}
+{
+
+	display: flex;
+	flex-direction: wrap;
+	margin-top: 10px
+}
+{
+	width: 60%;
+	background-size: cover;
+	background-position: center;
+}
+{
+	width: 40%;
+	height: 500px;
+	color:white;
+
+}
+home contact news about
+<img src="react.png"alt="" whidth"50px"
+
+
+nav{
+	margin-left: 50%;
+	background: red;
+}
+nav header a{
+	font-size:22px;
+	color: white;
+}
+.container{
+
+	display: flex;
+	flex-direction: wrap;
+	margin-top: 10px

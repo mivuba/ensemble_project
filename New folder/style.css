@@ -1,0 +1,249 @@
+body{
+	height: 100vh;
+	/*background: green;*/
+	background: #dd460a3b;
+}
+/*l*/
+.sidebar .text{
+	font-size: 16px;
+	font-weight: 500;
+	color: blue;
+}
+.sidebar .image{
+	min-width: 60px;
+	display: flex;
+    align-items: center;
+}
+/*kl*/
+.sidebar{
+	position: fixed;
+	top: 0;
+	left: 0px;
+	height: 100vh;
+	width: 200px;
+	padding: 10px 14px;
+	background: rgb(129, 129, 29);  white;
+}
+.sidebar .k{
+     
+	margin-top: 10px;
+	list-style: none;
+	display: flex;
+	align-items: center; 
+}
+
+
+.icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 60px;
+	font-size: 20px;
+}
+/*sd -------*/
+.sidebar li .icon,
+.sidebar li .text{
+	color: green;
+}
+.sidebar header{
+	position: relative; 
+}
+.sidebar .image-text img{
+	width: 40px;
+	border-radius: 6px;
+}
+.sidebar header .image-text{
+	display: flex;
+	align-items: center;
+}
+header .image-text .header-text{
+	display: flex;
+	flex-direction: column;
+} 
+
+
+.header-text .prefession{
+	font-weight: -2px;
+}
+/*tool---*/
+.sidebar header .fa-chevron-circle-right{
+	position: absolute;
+	top: 50%; 
+	right: -25px;
+	height: 25px;
+	transform: translateY(-50%);
+	width: 25px;
+	background: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	color:green;
+	font-size: 20px;
+	
+
+}
+.sidebar .search-box{
+	background:white;
+	 
+}
+
+
+
+/*.sidebar .menu-bar .menu .menu-links ul{
+	height: 50%;
+	display: flex;
+	text-decoration:none;
+	align-self: center; 
+	background: red;
+	list-style: none;
+}*/
+.sidebar .menu-bar{
+	background:;
+	height:calc(100% -50px);
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
+}
+.menu-bar .mode{
+	background: white;
+}
+.menu-bar .mode .moon-sun{
+	height: 10px;
+	width:60px;
+	display:flex;
+	align-items:center;
+}
+.menu-bar .mode .toggle-switch{
+	display: flex;
+	height:100px;
+	min-width:60px;
+	background:8799;
+	margin-right: px;
+	margin-left: 100px;
+	margin-top: -45px;
+	
+}
+.fa-toggle-off ::before{
+	margin-top:35px;
+	margin-left: 40px;
+	content: ;
+	position: absolute;
+	height: 15px;
+	width: 20px;
+	transform: translate(-50%);
+	background: blue;
+	transition:var(--tran-03);
+}
+body.dark .fa-toggle-off::before{
+	left: 20px;
+}
+.search-box:hover{
+background: rgb(191, 214, 169);
+}
+.menu-bar:hover{
+	background: #bcaaaa;
+}
+.fa-toggle-off:hover{
+	background: blue;
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{
+	height: 100vh;
+	background: var(--body-color);
+	display:flex;
+}
+
+.sidebar{
+position: fixed;
+top: 0px;
+left: 0px;
+height: 100%;
+width: 250px;
+padding: 10px 14px;
+background: #99999966;
+}
+.sidebar text{
+	height: 16px;
+	font-weight: 500;
+	color: blue;
+}
+.sidebar.image-text img{
+	width:40px;
+	border-radius: 6px; 
+}
+.sidebar.image-text{
+	display:flex;
+	align-items:center; 
+}
+.sidebar header .i{
+	position: absolute;
+	top: 50%;
+	right: -25px;
+	transform: translate();
+	height: 25px;
+	width: 25px;
+	background: blue;
+}
+.header-text .name{
+font-weight: 600;
+}
+.header-text .prefession{
+	margin-top: -2px;
+}
+.sidebar li{
+	height: 50px;
+	background: red;
+	margin-top: 10px;
+	list-style: none;
+	display: flex;
+	align-items: center; 
+}
+.sidebar li a{
+	height: 100px;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: blue;
+	transition:var(--primary-color);
+	<i class="tool">jk</i>
+		<span class="swich"></span>
+			<i class="fa fa-toggle-off" aria-hidden="true"></i>
+}*/
+/*
+<i class="fa fa-search" aria-hidden="true"></i>
+<i class="fa fa-heart" aria-hidden="true"></i>
+*/
+/*<i class="fa fa-home" aria-hidden="true"></i>*/
+/*
+<i class="fa fa-moon-o" aria-hidden="true"></i>
+
+*/
+
+/*
+<i class="fa fa-bell" aria-hidden="true"></i>
+*/
+/*
+/*<li class="bx bx-home-alt icon"></li>*/
+/*body{
+background-clor:
+box-shadow:20px 20px 20px;
+
+}*/
